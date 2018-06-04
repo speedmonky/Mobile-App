@@ -40,37 +40,7 @@ function openCity(evt, cityName) {
 }
 
 
-// Login part of the app
 
-//window.onload = function () {
-//    var emailDetails = document.getElementById("txtEmail");
-//    var passDetails = document.getElementById("txtPassword");
-//    var btnLogin = document.getElementById("btnLogin");
-//    var btnLogout = document.getElementById("btnLogout");
-//    var btnSignin = document.getElementById("create");
-//    var textInput = document.getElementById("testInput");
-//    var sendInput = document.getElementById("post");
-//
-//}
-//
-////add event listener for login button
-////loging in 
-//btnLogin.addEventListener("click", e => {
-//    var email = emailDetails.value;
-//    var pass = passDetails.value;
-//    var auth = firebase.auth();
-//
-//    var promise = auth.signInWithEmailAndPassword(email, pass);
-//    promise.catch(e => console.log(e.message));
-//
-//});
-//
-//
-////loging out
-//btnLogout.addEventListener("click", e => {
-//    firebase.auth().signOut();
-//});
-//
 
 
 
